@@ -1,0 +1,3 @@
+[submodule "hd44780"]
+	path = hd44780
+	url = https://github.com/camilstaps/HD44780_PIC
