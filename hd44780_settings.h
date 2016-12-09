@@ -2,6 +2,10 @@
 #define _HD44780_SETTINGS_H_
 
 #include <xc.h>
+#include "timer.h"
+
+/* 2ms would be something between 1 and 2; 3 is safe */
+#define HD44780_DELAY_1640US() (delay(3))
 
 #define HD44780_4BIT
 #define HD44780_DUAL
