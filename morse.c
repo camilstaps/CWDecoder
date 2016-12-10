@@ -1,6 +1,6 @@
 #include "morse.h"
 
-#define MORSE_TIME_BOUNCE 2
+#define MORSE_TIME_BOUNCE 1
 
 static unsigned char dit_or_dah;
 static unsigned char character_done;
