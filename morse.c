@@ -57,18 +57,22 @@ void morse_print_character(void)
 
 	if (current_char > 63) {
 		switch (current_char) {
-			case  71: MORSE_PRINT(':'); break;
-			case  76: MORSE_PRINT(','); break;
-			case  84: MORSE_PRINT('!'); break;
-			case  94: MORSE_PRINT('-'); break;
-			case  97: MORSE_PRINT('\''); break;
-			case 101: MORSE_PRINT('@'); break;
-			case 106: MORSE_PRINT('.'); break;
-			case 115: MORSE_PRINT('?'); break;
-			case 122: MORSE_PRINT('s'); MORSE_PRINT('k'); break;
-			case 246: MORSE_PRINT('$'); break;
+			case 0x47: MORSE_PRINT(':'); break;
+			case 0x4c: MORSE_PRINT(','); break;
+			case 0x52: MORSE_PRINT(')'); break;
+			case 0x54: MORSE_PRINT('!'); break;
+			case 0x55: MORSE_PRINT(';'); break;
+			case 0x5e: MORSE_PRINT('-'); break;
+			case 0x61: MORSE_PRINT('\''); break;
+			case 0x65: MORSE_PRINT('@'); break;
+			case 0x6a: MORSE_PRINT('.'); break;
+			case 0x73: MORSE_PRINT('?'); break;
+			case 0x7a: MORSE_PRINT('s'); MORSE_PRINT('k'); break;
+			case 0xf6: MORSE_PRINT('$'); break;
 			default:  MORSE_PRINT('#'); break;
 		}
+	} else if (current_char == 0x35) {
+		MORSE_PRINT('a'); MORSE_PRINT('r');
 	} else {
 		MORSE_PRINT(morse_code[current_char]);
 	}
