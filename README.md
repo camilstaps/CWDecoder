@@ -1,8 +1,6 @@
 # CW Decoder
 CW decoder using a PIC microcontroller
 
-**This is a work in progress.**
-
 This is a CW decoder using a PIC(16F88) microcontroller, based on [WD7FHC's
 Arduino decoder](http://www.mypetarduino.com/ReadCode/readCode.01.html).
 
