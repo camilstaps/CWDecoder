@@ -13,5 +13,5 @@ For a schematic, see [PA3GER's page](http://www.pa3ger.nl/zelfbouw/cw-decoder/)
 [schematic](http://www.pa3ger.nl/wp-content/uploads/2015/12/CW-decoder.pdf) is
 in English). Simply replace the Arduino with a PIC(16F88).
 
-Copyright &copy; 2016 [Camil Staps](mailto:info@camilstaps.nl). This project is
+Copyright &copy; [Camil Staps](mailto:info@camilstaps.nl). This project is
 licensed under the GPL v2.0 license. For more details, see the `LICENSE` file.
